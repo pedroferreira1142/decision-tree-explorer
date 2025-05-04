@@ -1,0 +1,76 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-card {
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-selector {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tree-visualization {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.tree-visualization:hover {
+  transform: scale(1.01);
+}
+
+.tree-text-view {
+  font-family: monospace;
+  white-space: pre-wrap;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.decision-path {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Custom tab styling */
+.nav-tabs .nav-link {
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.disabled {
+  color: #adb5bd;
+  cursor: not-allowed;
+}
+
+/* Card hover effects */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom progress bar colors */
+.progress-bar {
+  background-color: #17a2b8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+  
+  .card {
+    margin-bottom: 15px;
+  }
+}
