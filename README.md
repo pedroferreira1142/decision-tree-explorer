@@ -2,7 +2,6 @@
 
 A full-stack web application that demonstrates the usability of Decision Trees in machine learning. This project includes a FastAPI backend and a React frontend, allowing users to upload datasets, train decision tree models, visualize them, and make predictions.
 
-![Decision Tree Explorer Screenshot](https://via.placeholder.com/800x400)
 
 ## Features
 
